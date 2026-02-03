@@ -1,0 +1,27 @@
+# --- Entornos Virtuales (Backend) ---
+backend/venv/
+backend/env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Base de Datos y Logs ---
+backend/db.sqlite3
+backend/db.sqlite3-journal
+*.log
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+
+# --- Variables de Entorno (¡Importante!) ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
