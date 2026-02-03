@@ -1,0 +1,39 @@
+/* Base Styles using Vanilla CSS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --bg-color: #f8f9fa;
+  --text-color: #1f2937;
+  --primary-color: #2563eb; /* Blue */
+  --secondary-color: #0f172a; /* Dark Blue */
+  --success-color: #10b981; /* Green */
+  --warning-color: #f59e0b; /* Orange/Yellow */
+  --card-bg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 100%;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
